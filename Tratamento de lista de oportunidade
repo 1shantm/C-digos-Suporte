@@ -2,4 +2,4 @@
 const date = vars['general_now_date_YYYYMMDD'];
 
 //nessa linha usamos a biblioteca moment para formatar a data presente na variavel date que esta em formato YYYYMMDD, para formato DDMMYYYY e a armazena na variavel dates
-vars['dates'] = moment(date, 'YYYYMMDD').format('DD/MM/YYYY');
+vars['dates'] = moment(date, 'YYYYMMDD').format('DD/MM/YYYY'); 
