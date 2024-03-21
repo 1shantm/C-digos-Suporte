@@ -1,0 +1,6 @@
+//A primeira linha pega a data salva em uma variavel com separador sendo - ou / e usando o metodo split para separa a string de data em uma Array com 3 elementos, salvando
+esses elementos na variavel partesData1
+var partesData1 = dataOriginalNas.split("-");
+
+//Ne
+vars['dataAtual'] = partesData1[2] + "/" + partesData1[1] + "/" + partesData1[0];
