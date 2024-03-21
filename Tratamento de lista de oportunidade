@@ -1,4 +1,3 @@
-
 //essa linha traz a variavel do Kentro general_now_date_YYYYMMDD que puxa a data atual em formato YYYYMMDD e a armazena na variavel date
 const date = vars['general_now_date_YYYYMMDD'];
 
