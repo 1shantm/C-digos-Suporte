@@ -2,5 +2,5 @@
 esses elementos na variavel partesData1
 var partesData1 = dataOriginalNas.split("-");
 
-//Ne
+//Nessa linha  a variavel partesData1 onde esta armazenado o array com partes de data, seria usanda de acordo com a numeração de cada elemento para organizar a data de acordo com o desejado e depois armazenar na variavel dataAtual.
 vars['dataAtual'] = partesData1[2] + "/" + partesData1[1] + "/" + partesData1[0];
