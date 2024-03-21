@@ -1,0 +1,13 @@
+//Puxa o a variavel buscar lista da função buscar oportunidade presente na URA, e armazena na Constante dados
+const dados = vars['busca_list'];
+
+
+//A constante dados é mapeada atravez do metodo map que esta sendo usado para identificar cada elemento presente na função.
+// Esta função recebe um parâmetro chamado nome, que representa cada item da constante dados 
+var tituloFunil = dados.map(function(nome){
+//Dentro da função, acessamos a propriedade opportunity_pipeline_name de cada objeto nome e retornamos seu valor para a variavel tituloFunil
+    return nome.opportunity_pipeline_name;
+})
+
+//O retorno de TituloFunil e inserido na variavel nomeDoFunil para poder retornar no Kentro
+vars['nomeDoFunil'] = tituloFunil
