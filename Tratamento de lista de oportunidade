@@ -1,0 +1,6 @@
+
+//essa linha traz a variavel do Kentro general_now_date_YYYYMMDD que puxa a data atual em formato YYYYMMDD e a armazena na variavel date
+const date = vars['general_now_date_YYYYMMDD'];
+
+//nessa linha usamos a biblioteca moment para formatar a data presente na variavel date que esta em formato YYYYMMDD, para formato DDMMYYYY e a armazena na variavel dates
+vars['dates'] = moment(date, 'YYYYMMDD').format('DD/MM/YYYY');
