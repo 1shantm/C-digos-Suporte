@@ -1,0 +1,5 @@
+//essa linha traz a variavel do Kentro time2 que puxa a hora atual em formato HHmmss e a armazena na variavel hora
+const hora = vars['time2'];
+
+//nessa linha usamos a biblioteca moment para formatar a hora presente na variavel hora que esta em formato HHmmss, para formato HH:mm:ss e a armazena na variavel horas
+vars['horas'] = moment(hora, 'HHmmss').format('HH:mm:ss'); 
